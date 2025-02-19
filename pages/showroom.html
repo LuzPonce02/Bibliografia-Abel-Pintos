@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -26,90 +26,137 @@
     <!--CSS-->
     <link rel="stylesheet" href="../style/style.css" />
     <title>Abel Pintos - SHOWROOM</title>
-</head>
+  </head>
 
-<body>
-  <!--NAV-->
-  <header>
-    <nav class="navbar navbar-expand-lg color-nav">
-      <div class="container-fluid">
-        <a href="../index.html"><img class="logo-abel" src="../assets/img/logo abel.png" alt="" /></a>
+  <body>
+    <!--NAV-->
+    <header>
+      <nav class="navbar navbar-expand-lg color-nav">
+        <div class="container-fluid">
+          <a href="../index.html"
+            ><img class="logo-abel" src="../assets/img/logo abel.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >INICIO</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./discos.html">DISCOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./tickets.html">TICKETS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./showroom.html">SHOWROOM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">CONTACTO</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--CONTENIDO-->
+    <main class="container">
+      <h1>SHOWROOM ABELEROS</h1>
+      <p class="lead">
+        ¡Si, leiste bien! Contamos con un local a la calle con productos para
+        los fanaticos de Abel. ¿Qué ofrecemos? Remeras, vinchas, mates, pines,
+        cuadros, calendarios, mochilas y mucho mas! Hacemos sublimaciones,
+        stickers y tazas magicas. NO TENEMOS TIENDA ONLINE
+      </p>
+      <!--CAROUSEL-->
+      <div id="carouselExample" class="carousel slide carrousel-img-container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="../assets/img/FRENTE-COMERCIAL.jpg"
+              class="img-fluid rounded mx-auto d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/img/local-sublimacion.png"
+              class="img-fluid rounded mx-auto d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="../assets/img/sublimacion.jpg"
+              class="img-fluid rounded mx-auto d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
         <button
-          class="navbar-toggler"
+          class="carousel-control-prev"
           type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
+          data-bs-target="#carouselExample"
+          data-bs-slide="prev"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                aria-current="page"
-                href="../index.html"
-                >INICIO</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./discos.html">DISCOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./tickets.html">TICKETS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="./showroom.html">SHOWROOM</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./contacto.html">CONTACTO</a>
-            </li>
-          </ul>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExample"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="static-bottom footer-style mt-5">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-12 col-md-8 col-md-8 text-left">
+            <p class="copy">Copyright Luz Ponce Arnouil©</p>
+            <p class="copy">All Rights Reserved</p>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4 text-center rrss">
+            <a href="https://www.instagram.com/abelpintos/?hl=es-la"
+              ><img class="redes" src="../assets/img/instagram.png" alt=""
+            /></a>
+            <a href="https://www.facebook.com/oficial.abelpintos/?locale=es_LA">
+              <img class="redes" src="../assets/img/facebook.png" alt=""
+            /></a>
+            <a href="https://www.youtube.com/channel/UCp0x0iqZJhBIRYhuhwWX91A"
+              ><img class="redes" src="../assets/img/youtube.png" alt="" />
+            </a>
+            <a
+              href="https://x.com/AbelPintos?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&mx=2"
+              ><img class="redes" src="../assets/img/twitter.png" alt="" />
+            </a>
+          </div>
         </div>
       </div>
-    </nav>
-  </header>
-
-      <!--CONTENIDO-->
-      <main class="container">
-        <h1>SHOWROOM ABELEROS</h1>
-        <p class="lead">
-          ¡Si, leiste bien! Contamos con un local a la calle con productos para
-          los fanaticos de Abel. ¿Qué ofrecemos? Remeras, vinchas, mates, pines,
-          cuadros, calendarios, mochilas y mucho mas! Hacemos sublimaciones,
-          stickers y tazas magicas. NO TENEMOS TIENDA ONLINE
-        </p>
-      </main>
-
- <!--FOOTER-->
- <footer class="static-bottom footer-style mt-5">
-  <div class="container">
-    <div class="row p-5">
-      <div class="col-12 col-md-8 col-md-8 text-left">
-        <p class="copy">Copyright Luz Ponce Arnouil©</p>
-        <p class="copy">All Rights Reserved</p>
-      </div>
-      <div class="col-12 col-md-4 col-lg-4 text-center rrss">
-        <a href="https://www.instagram.com/abelpintos/?hl=es-la"
-          ><img class="redes" src="../assets/img/instagram.png" alt=""
-        /></a>
-        <a href="https://www.facebook.com/oficial.abelpintos/?locale=es_LA">
-          <img class="redes" src="../assets/img/facebook.png" alt=""
-        /></a>
-        <a href="https://www.youtube.com/channel/UCp0x0iqZJhBIRYhuhwWX91A"
-          ><img class="redes" src="../assets/img/youtube.png" alt="" />
-        </a>
-        <a
-          href="https://x.com/AbelPintos?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&mx=2"
-          ><img class="redes" src="../assets/img/twitter.png" alt="" />
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
