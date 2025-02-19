@@ -35,6 +35,11 @@
     margin-top: 32px;
     margin-bottom: 20px;
 }
+
+h2 {
+    font-family: "Montserrat", serif;
+    font-size: 30px;
+}
 p {
     font-family: "Montserrat", serif;
 }
@@ -93,5 +98,18 @@ footer {
  
 .imagen-home {
     border-radius: 30px;
-
 }
+
+/*discos*/
+.titulo-musica {
+    text-align: center;
+ }
+
+ .subtitulo-musica {
+    text-align: center;
+ }
+ .parrafo-discos {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+ }
