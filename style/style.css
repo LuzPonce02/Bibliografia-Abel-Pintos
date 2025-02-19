@@ -8,24 +8,26 @@
     background-color: #e7e7db;
     margin: 0;
     position: relative;
- }
+}
+
  main {
     scroll-margin-top: 6rem;
- }
+}
+
  header {
     position: sticky;
     top: 0;
     z-index: 10;
- }
+}
 
  li {
     list-style: none;
- }
+}
 
  a {
     text-decoration: none;
     color: #000000;
- }
+}
 
  h1 {
     color: rgb(0, 0, 0);
@@ -103,16 +105,17 @@ footer {
 /*discos*/
 .titulo-musica {
     text-align: center;
- }
+}
 
  .subtitulo-musica {
     text-align: center;
- }
+}
+ 
  .parrafo-discos {
     margin-top: 10px;
     margin-bottom: 30px;
     text-align: center;
- }
+}
 
  .card-group {
     margin-top: 32px;
@@ -121,7 +124,12 @@ footer {
     font-family: "Montserrat", serif;
     margin-left: 30px;
     font-size: 26px;
- }
+}
+
  .card-text {
     font-size: 1.25rem;
- }
+}
+
+.card {
+    background-color:#fffaf2
+}
