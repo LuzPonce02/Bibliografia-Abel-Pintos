@@ -60,6 +60,21 @@ p {
     z-index: 10;
 }
 
+/*COPIRYGHT*/
+.copy {
+    font-size: 12px;
+    color: #000000;
+}
+.redes {
+    width: 24px;
+    height: 24px;
+    margin: 10px;
+}
+footer {
+    background-color: #ffffff;
+}
+
+
 /*main home*/
 .main-content{
     display: flex;
