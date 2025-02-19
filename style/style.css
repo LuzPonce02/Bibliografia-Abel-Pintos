@@ -113,3 +113,15 @@ footer {
     margin-bottom: 30px;
     text-align: center;
  }
+
+ .card-group {
+    margin-top: 32px;
+}
+ .card-title {
+    font-family: "Montserrat", serif;
+    margin-left: 30px;
+    font-size: 26px;
+ }
+ .card-text {
+    font-size: 1.25rem;
+ }
