@@ -33,7 +33,7 @@
     color: rgb(0, 0, 0);
     font-family: "Noto Serif Display", serif;
     text-transform:capitalize;
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 32px;
     margin-bottom: 20px;
 }
@@ -51,6 +51,7 @@ p {
 .navbar-expand-lg .navbar-collapse {
     justify-content: center;
 }
+
  .navbar-nav {
     font-size: 20px
 }
