@@ -144,3 +144,14 @@ footer {
     border-radius: 3%;
 
 }
+
+/*TICKETS*/
+.titulo-tickets {
+    margin-left: 20px;
+    margin-bottom: 32px;
+}
+
+ /*.img-tickets {
+    width: 100%;
+    height: auto;
+ }
