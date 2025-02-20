@@ -150,8 +150,17 @@ footer {
     margin-left: 20px;
     margin-bottom: 32px;
 }
-
- /*.img-tickets {
-    width: 100%;
-    height: auto;
+.list-group {
+    align-items: center;
+}
+ .list-group-item {
+    background-color:#e7e7db;
+    font-size: 20px;
+    border: none;
+    padding: .80rem 1.40rem;
+ }
+ .btn {
+    font-size: 20px;
+    background-color: rgb(185, 169, 159);
+    border: #291c08;
  }
