@@ -164,3 +164,30 @@ footer {
     background-color: rgb(185, 169, 159);
     border: #291c08;
  }
+ .container-precios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+.color-table {
+    background-color:#724600 ;
+}
+ th {
+    text-align: center;
+    font-family: "Montserrat", serif;
+
+ }
+ td {
+    text-align: center;
+    font-family: "Montserrat", serif;
+ }
+
+
+ .img-ubicacion {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    
+ }
+
