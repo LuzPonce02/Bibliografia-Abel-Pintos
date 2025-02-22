@@ -170,9 +170,7 @@ footer {
     align-items: center;
     justify-items: center;
 }
-.color-table {
-    background-color:#724600 ;
-}
+
  th {
     text-align: center;
     font-family: "Montserrat", serif;
@@ -195,5 +193,13 @@ footer {
     width: 100%;
  }
 
-
-
+ /*CONTACTO*/
+ label {
+    font-family: "Montserrat", serif;   
+ }
+ input {
+    font-family: "Montserrat", serif;
+ }
+ textarea {
+    font-family: "Montserrat", serif;
+ }
