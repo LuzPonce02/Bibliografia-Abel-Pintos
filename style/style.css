@@ -203,3 +203,17 @@ footer {
  textarea {
     font-family: "Montserrat", serif;
  }
+
+ @media (max-width:450px) {
+    h1 {font-size: 30px;
+    }
+    .list-group-item {
+        font-size: 15px;
+    }
+    .btn {
+        font-size: 15px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+ }
