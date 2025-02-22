@@ -204,16 +204,36 @@ footer {
     font-family: "Montserrat", serif;
  }
 
+ /*media mobile*/
  @media (max-width:450px) {
-    h1 {font-size: 30px;
-    }
-    .list-group-item {
-        font-size: 15px;
-    }
-    .btn {
-        font-size: 15px;
+    h1 {
+        font-size: 30px;
     }
     h2 {
-        font-size: 20px;
+        font-size: 22px;
+    }
+    .container-precios {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-ubicacion {
+        margin-left: 0;
+    }
+
+ }
+/*media tablet*/
+ @media (min-width: 451px) and (max-width: 767px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .container-precios {
+        display: flex;
+        flex-direction: column;
+    }
+    .img-ubicacion {
+        margin-left: 0;
     }
  }
