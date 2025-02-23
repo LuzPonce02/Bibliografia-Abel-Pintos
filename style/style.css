@@ -102,6 +102,11 @@ footer {
  
 .imagen-home {
     border-radius: 30px;
+    vertical-align: middle;
+}
+
+.img-abel {
+    text-align: center;
 }
 
 /*discos*/
@@ -111,6 +116,7 @@ footer {
 
  .subtitulo-musica {
     text-align: center;
+    align-items: center;
 }
  
  .parrafo-discos {
