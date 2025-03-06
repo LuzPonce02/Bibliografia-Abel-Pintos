@@ -190,6 +190,11 @@ footer .redes {
   border-radius: 8px;
 }
 
+/*showroom*/
+.borde {
+  border-radius: 3%;
+}
+
 /*fondo-tickets*/
 .section-tickets {
   background-image: url(/assets/img/fondo-tickets.png);
