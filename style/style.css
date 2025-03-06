@@ -4,4 +4,35 @@
   box-sizing: border-box;
 }
 
+/*nav*/
+.color-nav {
+  background-color: rgb(185, 169, 159);
+  border-radius: 15px;
+  margin: 5px 40px;
+}
+.color-nav .navbar-collapse {
+  justify-content: center;
+}
+.color-nav .navbar-collapse .navbar-nav {
+  font-size: 20px;
+  gap: 30px;
+}
+.color-nav .navbar-collapse .navbar-nav .nav-item {
+  margin-left: 10px;
+}
+.color-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.color-nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+  color: rgb(240, 219, 219);
+  font-size: 21px;
+}
+
+.logo-abel {
+  width: 100px;
+  height: 60px;
+  margin-left: 15px;
+  z-index: 10;
+}
+
 /*# sourceMappingURL=style.css.map */
