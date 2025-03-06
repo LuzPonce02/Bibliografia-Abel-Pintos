@@ -1,3 +1,4 @@
+/*contenido*/
 h1 {
     font-family: $title-font;
     @extend %titulos;
@@ -13,4 +14,12 @@ h2 {
 h5 {
     font-family: $content-font;
     font-size: 22px;
+}
+a {
+    text-decoration: none;
+    color: rgb(52, 51, 51);
+    &:hover {
+        color: black;
+    }
+
 }
