@@ -195,6 +195,30 @@ footer .redes {
   border-radius: 3%;
 }
 
+.acordion-preguntas .acordion-header {
+  padding: 1.25rem;
+  background-color: rgb(185, 169, 159);
+}
+.acordion-preguntas .acordion-header:hover {
+  background-color: rgb(149, 133, 124);
+}
+.acordion-preguntas .acordion-header .acordion-button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.25rem;
+  color: rgb(40, 40, 39);
+  text-align: left;
+}
+.acordion-preguntas .acordion-body {
+  padding: 15px;
+  font-family: "Montserrat", serif;
+  font-size: 1.25rem;
+}
+.acordion-preguntas a {
+  text-decoration: none;
+  color: black;
+}
+
 /*fondo-tickets*/
 .section-tickets {
   background-image: url(/assets/img/fondo-tickets.png);
