@@ -12,9 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
-    <!--ICON-->
+  <!--ICON-->
   <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_down" />
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_down" />
   <!--BOOTSTRAP-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
@@ -58,19 +58,19 @@
     </nav>
   </header>
   <!--CONTENIDO-->
-  <main>
+  <main class="container">
     <div class="container pt-3 body-style mb-5">
       <div class="row mb-5 mt-5">
         <div class="col-12 col-md-8 col-lg-8 text-left mb-3">
           <h1 class="titulo-left mt-5">Contacto</h1>
           <p class="lead parrafo-opinion">
-            ¿Tenes alguna duda? ¿Queres dejarnos una reseña? ¿Tenés
+            ¿Tenes alguna duda? ¿Queres dejarnos una reseña? ¿Queres dejarnos
             algún consejo para sumar a nuestra pagina? Nos preocupamos mucho
             para dar lo mejor, tu comentario es de gran ayuda!
           </p>
         </div>
         <!--FORMULARIO-->
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4 mb-5 pt-5">
           <form action="" method="post" enctype="multipart/form-data">
             <div class="form-group mt-4">
               <label for="exampleFormControlInput1">Nombre</label>
@@ -91,14 +91,69 @@
         </div>
       </div>
     </div>
+    <!--Preguntas frecuentes-->
+    <h2>Preguntas frecuentes</h2>
+    <div class="acordion-preguntas pb-5" id="accordionExample">
+      <div class="acordion-item">
+        <h2 class="acordion-header">
+          <button class="acordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            ¿Como contactarnos?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="acordion-body">
+            El unico medio de contacto es mediante<strong><a href=""> el formulario</a></strong>. Solemos contestar en
+            un plazo de 3
+            días habiles.<code>. No contamos con telefono personal.</code>
+          </div>
+        </div>
+      </div>
+
+      <div class="acordion-item">
+        <h2 class="acordion-header">
+          <button class="acordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            ¿Hay compra minima en el local?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="acordion-body">
+            No! En nuestro local pueden comprar lo que deseen, <code>sin compra minima.</code>
+          </div>
+        </div>
+      </div>
+      <div class="acordion-item">
+        <h2 class="acordion-header">
+          <button class="acordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+            Quisiera aportar mas información a su pagina, ¿como puedo hacer?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="acordion-body">
+            Mediante el <strong><a href="#">formulario de contacto</a></strong> nosotros estaremos atentos a ideas o
+            cambios que nos puedan ayudar a crecer nuestra pagina.
+          </div>
+        </div>
+      </div>
+      <div class="acordion-item">
+        <h2 class="acordion-header">
+          <button class="acordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+            ¿Puedo colaborar en la fan page sin permiso?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="acordion-body">
+            No, no contamos con colaboladores habilitados para editar o modificar nuestra página. Pero si aceptamos
+            ideas que analizamos para futuras modificaciones.
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+
   <!--FOOTER-->
   <footer class="static-bottom footer-style mt-5">
     <div class="container">

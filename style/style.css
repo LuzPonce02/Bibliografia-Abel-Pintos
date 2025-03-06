@@ -235,4 +235,16 @@ a:hover {
   color: black;
 }
 
+label {
+  font-family: "Montserrat", serif;
+}
+
+input {
+  font-family: "Montserrat", serif;
+}
+
+textarea {
+  font-family: "Montserrat", serif;
+}
+
 /*# sourceMappingURL=style.css.map */
