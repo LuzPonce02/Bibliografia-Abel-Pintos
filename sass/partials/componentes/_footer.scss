@@ -1,0 +1,13 @@
+footer {
+    background-color: map-get($color ,nav-footer-boton);
+
+    .copy {
+        font-size: map-get($font-sizes, foot);
+        color: rgb(255, 255, 255);
+    }
+
+    .redes {
+        @include medidas (24px, 24px);
+        margin: 10px;
+    }
+}
