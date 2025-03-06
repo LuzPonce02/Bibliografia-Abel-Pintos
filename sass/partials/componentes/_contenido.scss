@@ -1,0 +1,8 @@
+h1 {
+    font-family: $title-font;
+    @extend %titulos;
+}
+p {
+    font-family: $content-font;
+    font-size: map-get($font-sizes, cont );
+}

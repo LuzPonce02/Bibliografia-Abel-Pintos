@@ -1,0 +1,12 @@
+.main-home {
+    
+    .parrafo-inicio {
+        font-size: map-get($font-sizes , cont );
+        text-align: justify;
+    }
+    .imagen-home {
+        @include medidas (100% , auto);
+        border-radius: 30px;
+    }
+
+}

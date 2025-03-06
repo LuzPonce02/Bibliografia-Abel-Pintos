@@ -1,222 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wdth,wght@87.5,334&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_horiz" />
-    <!--BOOTS-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!--CSS-->
-    <link rel="stylesheet" href="../style/style.css" />
-    <title>Abel Pintos - DISCOGRAFIA</title>
-  </head>
-  <body>
-    <!--NAV-->
-    <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg color-nav">
-        <div class="container-fluid">
-          <a href="../index.html"
-            ><img class="logo-abel" src="../assets/img/img-logo-abel.png" alt=""
-          /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wdth,wght@87.5,334&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+  <!--ICON-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=more_down" />
+  <!--BOOTS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!--CSS-->
+  <link rel="stylesheet" href="../style/style.css" />
+  <title>Abel Pintos - DISCOGRAFIA</title>
+</head>
+
+<body>
+  <!--NAV-->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg color-nav w-100">
+      <div class="container-fluid">
+        <a href="../index.html"><img class="logo-abel" src="../assets/img/img-logo-abel.png" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="material-symbols-outlined">
-            more_horiz
-            </span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html"
-                  >INICIO</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./discos.html">DISCOS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./tickets.html">TICKETS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./showroom.html">SHOWROOM</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">CONTACTO</a>
-              </li>
-            </ul>
-          </div>
+            more_down
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./discos.html">DISCOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./tickets.html">TICKETS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./showroom.html">SHOWROOM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contacto.html">CONTACTO</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <!--CONTENIDO-->
-    <main class="container container-discos">
-      <h1 class="titulo-musica">Música</h1>
-      <section class="container-musica">
-        <h2 class="subtitulo-musica">
-          <strong>Discografia de Abel pintos</strong>
-        </h2>
-        <p class="lead parrafo-discos">
-          Abel pintos saco su primer disco en el año 1997, llamado "Para Cantar
-          He Nacido", bajo el sello discografico de Sonyc Music y producido por
-          Leon Gieco. Hasta la actualidad ha concretado 14 álbumes, siendo 11 de
-          estudio, como "La Llave", "El Amor de mi Vida" o "Revolución" y 3 en
-          vivo, "Sueño Dorado", "Único" y "La familia festeja fuerte". ¿Conoces
-          sus canciones? Te invito a escucharlas! Espero lo disfrutes.
-        </p>
-      </section>
-      <!--SPOTIFY-->
-      <div class="container mt-3 mb-3">
-        <div class="row container-spotify">
-          <div
-            class="col-12 col-md-12 col-lg-4 px-3"
-            style="text-align: center"
-          >
-            <iframe
-              src="https://open.spotify.com/embed/album/3xZOsYi4w4NWEM99Ln2YCW"
-              width="300"
-              height="380"
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div
-            class="col-12 col-md-12 col-lg-4 px-3"
-            style="text-align: center"
-          >
-            <iframe
-              src="https://open.spotify.com/embed/album/5hqYx9I7vKgGWA33g8JhSU"
-              width="300"
-              height="380"
-              frameborder="0"
-            ></iframe>
-          </div>
-          <div
-            class="col-12 col-md-12 col-lg-4 px-3"
-            style="text-align: center"
-          >
-            <iframe
-              src="https://open.spotify.com/embed/album/3wxazAm6J5TaVwp7oWS7xg"
-              width="300"
-              height="380"
-              frameborder="0"
-            ></iframe>
-          </div>
+  <!--CONTENIDO-->
+  <main class="container container-discos">
+    <h1 class="titulo-musica">Música</h1>
+    <section class="container-musica">
+      <h2 class="subtitulo-musica">
+        <strong>Discografia de Abel pintos</strong>
+      </h2>
+      <p class="lead parrafo-discos">
+        Abel pintos saco su primer disco en el año 1997, llamado "Para Cantar
+        He Nacido", bajo el sello discografico de Sonyc Music y producido por
+        Leon Gieco. Hasta la actualidad ha concretado 14 álbumes, siendo 11 de
+        estudio, como "La Llave", "El Amor de mi Vida" o "Revolución" y 3 en
+        vivo, "Sueño Dorado", "Único" y "La familia festeja fuerte". ¿Conoces
+        sus canciones? Te invito a escucharlas! Espero lo disfrutes.
+      </p>
+    </section>
+    <!--SPOTIFY-->
+    <div class="container mt-3 mb-3">
+      <div class="row container-spotify">
+        <div class="col-12 col-md-12 col-lg-4 px-3" style="text-align: center">
+          <iframe src="https://open.spotify.com/embed/album/3xZOsYi4w4NWEM99Ln2YCW" width="300" height="380"
+            frameborder="0"></iframe>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4 px-3" style="text-align: center">
+          <iframe src="https://open.spotify.com/embed/album/5hqYx9I7vKgGWA33g8JhSU" width="300" height="380"
+            frameborder="0"></iframe>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4 px-3" style="text-align: center">
+          <iframe src="https://open.spotify.com/embed/album/3wxazAm6J5TaVwp7oWS7xg" width="300" height="380"
+            frameborder="0"></iframe>
         </div>
       </div>
-      <!--INFO DISCOS-->
-      <div class="card-group">
-        <div class="card">
-          <img
-            src="../assets/img/disco-abel.jpeg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title"><strong>Álbum - ABEL</strong></h5>
-            <p class="card-text">
-              Abel es el octavo álbum de estudio de Abel Pintos grabado bajo el
-              sello discográfico de Sony Music producido por Abel, Marcelo
-              Predacino y Ariel Pintos. Cuenta con 13 canciones. Cuenta con la
-              colaboración de Diego Cantero Campillo, María Bernal Hernández,
-              Marcos David Santisteban, Miriam Cecilia Leos Guadarrama y Daniel
-              Cuevas Amaya
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="../assets/img/disco-la-familia-festeja.webp"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">
-              <strong>Álbum - LA FAMILIA FESTEJA FUERTE</strong>
-            </h5>
-            <p class="card-text">
-              Álbum de estudio de Abel Pintos, lanzado en 2018 y compuesto por
-              más de 30 canciones, como "El Adivino", "Pajaro Cantor", "Como te
-              Extraño". En donde colaboró con Marcela Moreno, Santiago Cruz y
-              Malú.
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <img
-            src="../assets/img/disco-amor-de-mi-vida.jpeg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">
-              <strong>Álbum - EL AMOR DE MI VIDA</strong>
-            </h5>
-            <p class="card-text">
-              Álbum de estudio de Abel Pintos, lanzado al público en el año
-              2021. En donde cuenta con las colaboraciones de artistas como
-              Yotuel (Cuba), Camila (México), Beatriz Luengo (España) y Lali
-              (Argentina). Compuesto por 15 tracks.
-            </p>
-          </div>
+    </div>
+    <!--INFO DISCOS-->
+    <div class="card-group">
+      <div class="card">
+        <img src="../assets/img/disco-abel.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title"><strong>Álbum - ABEL</strong></h5>
+          <p class="card-text">
+            Abel es el octavo álbum de estudio de Abel Pintos grabado bajo el
+            sello discográfico de Sony Music producido por Abel, Marcelo
+            Predacino y Ariel Pintos. Cuenta con 13 canciones. Cuenta con la
+            colaboración de Diego Cantero Campillo, María Bernal Hernández,
+            Marcos David Santisteban, Miriam Cecilia Leos Guadarrama y Daniel
+            Cuevas Amaya
+          </p>
         </div>
       </div>
-    </main>
+      <div class="card">
+        <img src="../assets/img/disco-la-familia-festeja.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <strong>Álbum - LA FAMILIA FESTEJA FUERTE</strong>
+          </h5>
+          <p class="card-text">
+            Álbum de estudio de Abel Pintos, lanzado en 2018 y compuesto por
+            más de 30 canciones, como "El Adivino", "Pajaro Cantor", "Como te
+            Extraño". En donde colaboró con Marcela Moreno, Santiago Cruz y
+            Malú.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../assets/img/disco-amor-de-mi-vida.jpeg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">
+            <strong>Álbum - EL AMOR DE MI VIDA</strong>
+          </h5>
+          <p class="card-text">
+            Álbum de estudio de Abel Pintos, lanzado al público en el año
+            2021. En donde cuenta con las colaboraciones de artistas como
+            Yotuel (Cuba), Camila (México), Beatriz Luengo (España) y Lali
+            (Argentina). Compuesto por 15 tracks.
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
 
-    <!--FOOTER-->
-    <footer class="static-bottom footer-style mt-5">
-      <div class="container">
-        <div class="row p-5">
-          <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-left">
-            <p class="copy">Copyright Luz Ponce Arnouil©</p>
-            <p class="copy">All Rights Reserved</p>
-          </div>
-          <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-center rrss">
-            <a href="https://www.instagram.com/abelpintos/?hl=es-la"
-              ><img class="redes" src="../assets/img/instagram.png" alt=""
-            /></a>
-            <a href="https://www.facebook.com/oficial.abelpintos/?locale=es_LA">
-              <img class="redes" src="../assets/img/facebook.png" alt=""
-            /></a>
-            <a href="https://www.youtube.com/channel/UCp0x0iqZJhBIRYhuhwWX91A"
-              ><img class="redes" src="../assets/img/youtube.png" alt="" />
-            </a>
-            <a
-              href="https://x.com/AbelPintos?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&mx=2"
-              ><img class="redes" src="../assets/img/twitter.png" alt="" />
-            </a>
-          </div>
+  <!--FOOTER-->
+  <footer class="static-bottom footer-style mt-5">
+    <div class="container">
+      <div class="row p-5">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-left">
+          <p class="copy">Copyright Luz Ponce Arnouil©</p>
+          <p class="copy">All Rights Reserved</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 text-center rrss">
+          <a href="https://www.instagram.com/abelpintos/?hl=es-la"><img class="redes" src="../assets/img/instagram.png"
+              alt="" /></a>
+          <a href="https://www.facebook.com/oficial.abelpintos/?locale=es_LA">
+            <img class="redes" src="../assets/img/facebook.png" alt="" /></a>
+          <a href="https://www.youtube.com/channel/UCp0x0iqZJhBIRYhuhwWX91A"><img class="redes"
+              src="../assets/img/youtube.png" alt="" />
+          </a>
+          <a href="https://x.com/AbelPintos?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor&mx=2"><img
+              class="redes" src="../assets/img/twitter.png" alt="" />
+          </a>
         </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
