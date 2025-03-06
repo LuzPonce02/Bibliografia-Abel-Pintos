@@ -7,3 +7,25 @@
     }
 }
 
+.lista-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+    list-style: none;
+
+    .lista-group-item {
+        font-family: $content-font;
+        font-size: map-get($font-sizes, p );
+        border: none;
+    }
+
+    .btn-tickets {
+        @extend %btn;
+        color: white;
+    }
+}
+
+.mapa-local {
+    width: 100%;
+ }

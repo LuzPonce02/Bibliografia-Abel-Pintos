@@ -12,13 +12,13 @@ h1 {
   font-weight: 600;
 }
 
-.btn, .tarjeta-group .tarjeta .tarjeta-body .boton-card {
+.btn, .tarjeta-group .tarjeta .tarjeta-body .boton-card, .lista-group .btn-tickets {
   display: inline-block;
   font-size: 20px;
   background-color: rgb(185, 169, 159);
   border: #291c08;
 }
-.btn:hover, .tarjeta-group .tarjeta .tarjeta-body .boton-card:hover {
+.btn:hover, .tarjeta-group .tarjeta .tarjeta-body .boton-card:hover, .lista-group .btn-tickets:hover {
   background-color: rgb(149, 133, 124);
 }
 
@@ -98,7 +98,58 @@ footer .redes {
   margin-bottom: 32px;
 }
 
+.lista-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+  list-style: none;
+}
+.lista-group .lista-group-item {
+  font-family: "Montserrat", serif;
+  font-size: 1.25rem;
+  border: none;
+}
+.lista-group .btn-tickets {
+  color: white;
+}
+
+.mapa-local {
+  width: 100%;
+}
+
 /*table*/
+.container-precios {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.container-precios .img-ubicacion {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px;
+}
+
+.tabla th {
+  padding: 10px 30px;
+  font-family: "Montserrat", serif;
+  background-color: rgb(185, 169, 159);
+  text-align: center;
+}
+.tabla tbody tr {
+  border: 1px solid;
+}
+.tabla tbody tr td {
+  font-family: "Montserrat", serif;
+  text-align: center;
+  padding: 5px 10px;
+  border: 1px solid rgb(185, 169, 159);
+}
+.tabla tbody tr .color-td {
+  background-color: rgb(218, 212, 208);
+}
+
 /*cards*/
 .tarjeta-group {
   display: grid;
