@@ -12,6 +12,16 @@ h1 {
   font-weight: 600;
 }
 
+.btn, .tarjeta-group .tarjeta .tarjeta-body .boton-card {
+  display: inline-block;
+  font-size: 20px;
+  background-color: rgb(185, 169, 159);
+  border: #291c08;
+}
+.btn:hover, .tarjeta-group .tarjeta .tarjeta-body .boton-card:hover {
+  background-color: rgb(149, 133, 124);
+}
+
 /*nav*/
 .color-nav {
   background-color: rgb(185, 169, 159);
@@ -43,6 +53,7 @@ h1 {
   z-index: 10;
 }
 
+/*footer*/
 footer {
   background-color: rgb(185, 169, 159);
 }
@@ -56,6 +67,7 @@ footer .redes {
   margin: 10px;
 }
 
+/*home*/
 .main-home .parrafo-inicio {
   font-size: 1.25rem;
   text-align: justify;
@@ -66,12 +78,75 @@ footer .redes {
   border-radius: 30px;
 }
 
+/*discos*/
+.titulo-musica {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.container-musica {
+  text-align: center;
+}
+.container-musica .parrafo-musica {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.tarjeta-group {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin: 0;
+}
+.tarjeta-group .tarjeta {
+  background-color: #fffaf2;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.tarjeta-group .tarjeta .tarjeta-header .img-card {
+  width: 100%;
+  display: block;
+  border-radius: 8px 8px 0 0;
+}
+.tarjeta-group .tarjeta .tarjeta-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 15px;
+  text-align: left;
+}
+.tarjeta-group .tarjeta .tarjeta-body .descripcion {
+  flex-grow: 1;
+}
+.tarjeta-group .tarjeta .tarjeta-body .boton-card {
+  display: block;
+  color: rgb(30, 6, 6);
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
 h1 {
   font-family: "Noto Serif Display", serif;
 }
 
 p {
   font-family: "Montserrat", serif;
+}
+
+h2 {
+  font-family: "Montserrat", serif;
+  font-size: 30px;
+}
+
+h5 {
+  font-family: "Montserrat", serif;
+  font-size: 22px;
 }
 
 /*# sourceMappingURL=style.css.map */

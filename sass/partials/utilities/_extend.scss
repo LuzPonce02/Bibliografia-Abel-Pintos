@@ -5,3 +5,13 @@
     margin-bottom: 20px;
     font-weight: 600;
 }
+
+%btn {
+    display: inline-block;
+    font-size: 20px;
+    background-color: map-get($color, nav-footer-boton );
+    border: map-get($color, bordes );
+    &:hover {
+        background-color:  rgb(149, 133, 124);
+    }
+ }

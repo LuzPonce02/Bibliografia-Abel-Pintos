@@ -6,3 +6,11 @@ p {
     font-family: $content-font;
     font-size: map-get($font-sizes, cont );
 }
+h2 {
+    font-family: $content-font;
+    font-size: 30px;
+}
+h5 {
+    font-family: $content-font;
+    font-size: 22px;
+}
