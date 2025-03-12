@@ -29,6 +29,10 @@
     .btn {
         font-size: map-get($font-sizes, btn-mobile );
     }
+
+    .boton-card {
+        font-size: map-get($font-sizes, btn-mobile );
+    }
     /*media-card*/
     .tarjeta-group {
         display: flex;
@@ -108,6 +112,9 @@
         font-size: map-get($font-sizes, parrafo-tablet );
     }
     .btn {
+        font-size: map-get($font-sizes, btn-tablet );
+    }
+    .boton-card {
         font-size: map-get($font-sizes, btn-tablet );
     }
 

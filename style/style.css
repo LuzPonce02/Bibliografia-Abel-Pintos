@@ -14,7 +14,6 @@ h1 {
 
 .btn, .tarjeta-group .tarjeta .tarjeta-body .boton-card {
   display: inline-block;
-  font-size: 20px;
   background-color: rgb(185, 169, 159);
   border: #291c08;
   color: white;
@@ -264,6 +263,10 @@ textarea {
   font-size: 1.25rem;
 }
 
+.btn {
+  font-size: 20px;
+}
+
 /*acordion preguntas*/
 .acordion-header .acordion-button {
   width: 100%;
@@ -309,6 +312,9 @@ a {
     font-size: 1rem;
   }
   .btn {
+    font-size: 16px;
+  }
+  .boton-card {
     font-size: 16px;
   }
   /*media-card*/
@@ -373,6 +379,9 @@ a {
     font-size: 1.125rem;
   }
   .btn {
+    font-size: 18px;
+  }
+  .boton-card {
     font-size: 18px;
   }
   /*media-card*/
