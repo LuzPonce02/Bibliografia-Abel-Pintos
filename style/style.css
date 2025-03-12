@@ -296,6 +296,12 @@ a {
   p {
     font-size: 1rem;
   }
+  h1 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 24px;
+  }
   /*media-card*/
   .tarjeta-group {
     display: flex;
@@ -343,10 +349,16 @@ a {
     margin: 5px;
   }
   .color-nav .navbar-collapse .navbar-nav {
-    gap: 15px;
+    gap: 10px;
   }
   p {
     font-size: 1.125rem;
+  }
+  h1 {
+    font-size: 38;
+  }
+  h2 {
+    font-size: 26px;
   }
   /*media-card*/
   .tarjeta-group {

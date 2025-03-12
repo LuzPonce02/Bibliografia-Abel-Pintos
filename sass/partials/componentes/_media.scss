@@ -4,14 +4,23 @@
     .color-nav {
         margin: 5px;
         padding: 5px 5px;
+
         .navbar-collapse {
             .navbar-nav {
-                gap:10px
+                gap: 10px
             }
         }
     }
+
     p {
-        font-size: map-get($font-sizes, parrafo-mobile );
+        font-size: map-get($font-sizes, parrafo-mobile);
+    }
+
+    h1 {
+        font-size: map-get($font-sizes , h1-mobile);
+    }
+    h2 {
+        font-size: map-get($font-sizes , h2-mobile);
     }
 
     /*media-card*/
@@ -42,6 +51,7 @@
             }
         }
     }
+
     /*media lista tickets*/
     .lista-group {
         display: flex;
@@ -56,6 +66,7 @@
     .container-precios {
         display: flex;
         flex-direction: column;
+
         .img-ubicacion {
             margin-left: 0;
             margin-top: 10px;
@@ -68,16 +79,25 @@
     /*nav*/
     .color-nav {
         margin: 5px;
+
         .navbar-collapse {
             .navbar-nav {
-                gap:15px
+                gap: 10px
             }
         }
     }
+
     p {
-        font-size: map-get($font-sizes, parrafo-tablet );
+        font-size: map-get($font-sizes, parrafo-tablet);
     }
 
+    h1 {
+        font-size: map-get($font-sizes , h1-tablet);
+    }
+
+    h2 {
+        font-size: map-get($font-sizes , h2-tablet);
+    }
 
     /*media-card*/
     .tarjeta-group {
@@ -122,8 +142,9 @@
     .container-precios {
         display: flex;
         flex-direction: column;
+
         .img-ubicacion {
-            margin-left:0 ;
+            margin-left: 0;
             margin-top: 10px;
         }
     }
