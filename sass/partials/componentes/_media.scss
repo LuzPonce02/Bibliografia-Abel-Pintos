@@ -4,6 +4,14 @@
     .color-nav {
         margin: 5px;
         padding: 5px 5px;
+        .navbar-collapse {
+            .navbar-nav {
+                gap:10px
+            }
+        }
+    }
+    p {
+        font-size: map-get($font-sizes, parrafo-mobile );
     }
 
     /*media-card*/
@@ -60,7 +68,16 @@
     /*nav*/
     .color-nav {
         margin: 5px;
+        .navbar-collapse {
+            .navbar-nav {
+                gap:15px
+            }
+        }
     }
+    p {
+        font-size: map-get($font-sizes, parrafo-tablet );
+    }
+
 
     /*media-card*/
     .tarjeta-group {

@@ -6,12 +6,15 @@ $color: (
 );
 
 $font-sizes: (
-   /*c: computadora m:mobile t: tablet*/
     h1: 40px,
     h2: 30px,
     p: 1.25rem,
-    /*nav*/
     nav: 20px,
-    /*footer*/
     foot:15px,
+    /*media movile*/
+    parrafo-mobile: 1rem,
+    h1-mobile:36px,
+    /*media tablet*/
+    parrafo-tablet: 1.125rem,
+    h1-tablet: 38,
 );

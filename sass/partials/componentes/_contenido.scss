@@ -5,7 +5,7 @@ h1 {
 }
 p {
     font-family: $content-font;
-    font-size: map-get($font-sizes, cont );
+    font-size: map-get($font-sizes, p );
 }
 h2 {
     font-family: $content-font;
