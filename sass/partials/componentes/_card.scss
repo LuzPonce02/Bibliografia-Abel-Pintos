@@ -31,12 +31,14 @@
 
             .descripcion {
                 flex-grow: 1;
+                font-size: map-get($font-sizes, p )
             }
 
             .boton-card {
                 @extend %btn;
+                font-family: $content-font;
                 display: block;
-                color: rgb(30, 6, 6);
+                color: white;
                 padding: 10px;
                 text-decoration: none;
                 text-align: center;

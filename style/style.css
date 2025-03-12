@@ -12,13 +12,15 @@ h1 {
   font-weight: 600;
 }
 
-.btn, .tarjeta-group .tarjeta .tarjeta-body .boton-card, .lista-group .btn-tickets {
+.btn, .tarjeta-group .tarjeta .tarjeta-body .boton-card {
   display: inline-block;
   font-size: 20px;
   background-color: rgb(185, 169, 159);
   border: #291c08;
+  color: white;
+  font-family: "Montserrat", serif;
 }
-.btn:hover, .tarjeta-group .tarjeta .tarjeta-body .boton-card:hover, .lista-group .btn-tickets:hover {
+.btn:hover, .tarjeta-group .tarjeta .tarjeta-body .boton-card:hover {
   background-color: rgb(149, 133, 124);
 }
 
@@ -182,10 +184,12 @@ footer .redes {
 }
 .tarjeta-group .tarjeta .tarjeta-body .descripcion {
   flex-grow: 1;
+  font-size: 1.25rem;
 }
 .tarjeta-group .tarjeta .tarjeta-body .boton-card {
+  font-family: "Montserrat", serif;
   display: block;
-  color: rgb(30, 6, 6);
+  color: white;
   padding: 10px;
   text-decoration: none;
   text-align: center;
