@@ -25,6 +25,10 @@
     .lista-group-item  {
         font-size: map-get($font-sizes, parrafo-mobile );
     }
+
+    .btn {
+        font-size: map-get($font-sizes, btn-mobile );
+    }
     /*media-card*/
     .tarjeta-group {
         display: flex;
@@ -103,6 +107,11 @@
     .lista-group-item  {
         font-size: map-get($font-sizes, parrafo-tablet );
     }
+    .btn {
+        font-size: map-get($font-sizes, btn-tablet );
+    }
+
+
 
     /*media-card*/
     .tarjeta-group {
