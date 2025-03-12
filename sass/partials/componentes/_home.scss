@@ -1,6 +1,9 @@
 /*home*/
 .main-home {
-    
+    .animate__animated.animate__rubberBand {
+        --animate-duration: 2.5s;
+
+    }
     .parrafo-inicio {
         font-size: map-get($font-sizes , p );
         text-align: justify;

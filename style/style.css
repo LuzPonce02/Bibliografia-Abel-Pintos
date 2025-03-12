@@ -68,6 +68,9 @@ footer .redes {
 }
 
 /*home*/
+.main-home .animate__animated.animate__rubberBand {
+  --animate-duration: 2.5s;
+}
 .main-home .parrafo-inicio {
   font-size: 1.25rem;
   text-align: justify;
