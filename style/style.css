@@ -265,16 +265,13 @@ textarea {
 /*acordion preguntas*/
 .acordion-header {
   padding: 1.25rem;
-  background-color: rgb(185, 169, 159);
-}
-.acordion-header:hover {
-  background-color: rgb(149, 133, 124);
+  background-image: linear-gradient(to bottom, rgb(196, 177, 166), rgb(158, 145, 136));
 }
 .acordion-header .acordion-button {
   border: none;
   background-color: transparent;
   font-size: 1.25rem;
-  color: rgb(40, 40, 39);
+  color: white;
   text-align: left;
 }
 
