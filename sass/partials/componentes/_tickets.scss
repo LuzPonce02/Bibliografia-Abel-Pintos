@@ -19,6 +19,12 @@
         font-size: map-get($font-sizes, p );
         border: none;
     }
+    .lista-boton {
+        &:hover {
+            animation:headShake;
+            animation-duration:2.5s;
+        }
+    }
 
     .btn-tickets {
         color: white;

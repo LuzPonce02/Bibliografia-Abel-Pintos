@@ -31,7 +31,7 @@
 
             .descripcion {
                 flex-grow: 1;
-                font-size: map-get($font-sizes, p )
+                font-size: map-get($font-sizes, p)
             }
 
             .boton-card {
@@ -44,6 +44,11 @@
                 text-align: center;
                 margin-top: 10px;
                 border-radius: 8px;
+
+                &:hover {
+                    animation: headShake;
+                    animation-duration: 2.5s;
+                }
 
             }
 

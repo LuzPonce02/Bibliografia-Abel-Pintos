@@ -115,6 +115,10 @@ footer .redes {
   font-size: 1.25rem;
   border: none;
 }
+.lista-group .lista-boton:hover {
+  animation: headShake;
+  animation-duration: 2.5s;
+}
 .lista-group .btn-tickets {
   color: white;
 }
@@ -195,6 +199,10 @@ footer .redes {
   text-align: center;
   margin-top: 10px;
   border-radius: 8px;
+}
+.tarjeta-group .tarjeta .tarjeta-body .boton-card:hover {
+  animation: headShake;
+  animation-duration: 2.5s;
 }
 
 /*showroom*/
