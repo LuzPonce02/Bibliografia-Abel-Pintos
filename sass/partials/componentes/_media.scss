@@ -22,7 +22,9 @@
     h2 {
         font-size: map-get($font-sizes , h2-mobile);
     }
-
+    .lista-group-item  {
+        font-size: map-get($font-sizes, parrafo-mobile );
+    }
     /*media-card*/
     .tarjeta-group {
         display: flex;
@@ -97,6 +99,9 @@
 
     h2 {
         font-size: map-get($font-sizes , h2-tablet);
+    }
+    .lista-group-item  {
+        font-size: map-get($font-sizes, parrafo-tablet );
     }
 
     /*media-card*/

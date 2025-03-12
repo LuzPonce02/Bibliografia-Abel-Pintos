@@ -9,15 +9,15 @@ p {
 }
 h2 {
     font-family: $content-font;
-    font-size: 30px;
+    font-size: map-get($font-sizes, h2 );
 }
 h4 {
     font-family: $content-font;
-    font-size: 25px;
+    font-size: map-get($font-sizes, h4 );
 }
 h5 {
     font-family: $content-font;
-    font-size: 22px;
+    font-size: map-get($font-sizes, h5 );
 }
 a {
     text-decoration: none;
@@ -37,3 +37,6 @@ input {
 textarea {
     font-family: $content-font;
 }
+.lista-group-item  {
+    font-size: map-get($font-sizes, p );
+ }

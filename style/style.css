@@ -111,7 +111,6 @@ footer .redes {
 }
 .lista-group .lista-group-item {
   font-family: "Montserrat", serif;
-  font-size: 1.25rem;
   border: none;
 }
 .lista-group .lista-boton:hover {
@@ -261,6 +260,10 @@ textarea {
   font-family: "Montserrat", serif;
 }
 
+.lista-group-item {
+  font-size: 1.25rem;
+}
+
 /*acordion preguntas*/
 .acordion-header .acordion-button {
   width: 100%;
@@ -301,6 +304,9 @@ a {
   }
   h2 {
     font-size: 24px;
+  }
+  .lista-group-item {
+    font-size: 1rem;
   }
   /*media-card*/
   .tarjeta-group {
@@ -359,6 +365,9 @@ a {
   }
   h2 {
     font-size: 26px;
+  }
+  .lista-group-item {
+    font-size: 1.125rem;
   }
   /*media-card*/
   .tarjeta-group {
