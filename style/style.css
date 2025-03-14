@@ -290,6 +290,7 @@ a {
   color: black;
 }
 
+/*media mobile*/
 @media (max-width: 450px) {
   /*nav*/
   .color-nav {
@@ -316,6 +317,9 @@ a {
   }
   .boton-card {
     font-size: 16px;
+  }
+  h4 {
+    font-size: 20px;
   }
   /*media-card*/
   .tarjeta-group {
@@ -358,6 +362,7 @@ a {
     margin-top: 10px;
   }
 }
+/*media tablet*/
 @media (min-width: 451px) and (max-width: 770px) {
   /*nav*/
   .color-nav {
@@ -383,6 +388,9 @@ a {
   }
   .boton-card {
     font-size: 18px;
+  }
+  h4 {
+    font-size: 22px;
   }
   /*media-card*/
   .tarjeta-group {

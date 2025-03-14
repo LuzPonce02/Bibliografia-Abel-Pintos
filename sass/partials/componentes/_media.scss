@@ -1,3 +1,4 @@
+/*media mobile*/
 @media (max-width: 450px) {
 
     /*nav*/
@@ -19,20 +20,27 @@
     h1 {
         font-size: map-get($font-sizes , h1-mobile);
     }
+
     h2 {
         font-size: map-get($font-sizes , h2-mobile);
     }
-    .lista-group-item  {
-        font-size: map-get($font-sizes, parrafo-mobile );
+
+    .lista-group-item {
+        font-size: map-get($font-sizes, parrafo-mobile);
     }
 
     .btn {
-        font-size: map-get($font-sizes, btn-mobile );
+        font-size: map-get($font-sizes, btn-mobile);
     }
 
     .boton-card {
-        font-size: map-get($font-sizes, btn-mobile );
+        font-size: map-get($font-sizes, btn-mobile);
     }
+
+    h4 {
+        font-size: map-get($font-sizes , h4-mobile);
+    }
+
     /*media-card*/
     .tarjeta-group {
         display: flex;
@@ -84,6 +92,7 @@
     }
 }
 
+/*media tablet*/
 @media (min-width: 451px) and (max-width: 770px) {
 
     /*nav*/
@@ -108,16 +117,22 @@
     h2 {
         font-size: map-get($font-sizes , h2-tablet);
     }
-    .lista-group-item  {
-        font-size: map-get($font-sizes, parrafo-tablet );
-    }
-    .btn {
-        font-size: map-get($font-sizes, btn-tablet );
-    }
-    .boton-card {
-        font-size: map-get($font-sizes, btn-tablet );
+
+    .lista-group-item {
+        font-size: map-get($font-sizes, parrafo-tablet);
     }
 
+    .btn {
+        font-size: map-get($font-sizes, btn-tablet);
+    }
+
+    .boton-card {
+        font-size: map-get($font-sizes, btn-tablet);
+    }
+
+    h4 {
+        font-size: map-get($font-sizes, h4-tablet);
+    }
 
 
     /*media-card*/
