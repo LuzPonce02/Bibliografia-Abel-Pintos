@@ -1,6 +1,6 @@
 <h1>Hello ! I'm Luz Ponce Arnouil 🪐</h1>
 
-> DEPLOY: https://tam-s-c.github.io/Keane-Website/](https://luzponce02.github.io/Bibliografia-Abel-Pintos/)
+> DEPLOY:(https://luzponce02.github.io/Bibliografia-Abel-Pintos/)
 ### CODERHOUSE > Comisión: 69175
 - Teacher: Jesus Gabriel Jorge
 - Deputy Tutor: Thiago Sosa
