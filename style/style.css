@@ -267,6 +267,10 @@ textarea {
   font-size: 20px;
 }
 
+.acordion-button {
+  font-size: 1.25rem;
+}
+
 /*acordion preguntas*/
 .acordion-header .acordion-button {
   width: 100%;
@@ -274,7 +278,6 @@ textarea {
   border: none;
   padding-left: 10px;
   background-image: linear-gradient(to bottom, rgb(196, 177, 166), rgb(158, 145, 136));
-  font-size: 1.25rem;
   color: white;
   text-align: left;
 }
@@ -326,6 +329,9 @@ a {
   }
   .size-td {
     font-size: 12px;
+  }
+  .acordion-button {
+    font-size: 16px;
   }
   /*media-card*/
   .tarjeta-group {
@@ -403,6 +409,9 @@ a {
   }
   .size-td {
     font-size: 14px;
+  }
+  .acordion-button {
+    font-size: 18px;
   }
   /*media-card*/
   .tarjeta-group {
