@@ -4,6 +4,7 @@
     margin-top: 32px;
     margin-bottom: 20px;
     font-weight: 600;
+    font-size: map-get($font-sizes, h1 );
 }
 
 %btn {
