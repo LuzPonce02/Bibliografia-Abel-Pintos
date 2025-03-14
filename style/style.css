@@ -69,6 +69,9 @@ footer .redes {
 }
 
 /*home*/
+.main-home {
+  padding-top: 5.625rem;
+}
 .main-home .animate__animated.animate__rubberBand {
   --animate-duration: 1.5s;
 }
@@ -377,6 +380,9 @@ a {
   }
   .main-tickets .titulo-tickets {
     margin-left: 8px;
+  }
+  .main-home {
+    padding-top: 10px;
   }
 }
 /*media tablet*/
