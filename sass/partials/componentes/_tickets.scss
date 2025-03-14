@@ -17,11 +17,18 @@
     .lista-group-item {
         font-family: $content-font;
         border: none;
+
+        .direccion {
+            &:hover {
+                color: rgb(102, 83, 58);
+            }
+        }
     }
+
     .lista-boton {
         &:hover {
-            animation:headShake;
-            animation-duration:2.5s;
+            animation: headShake;
+            animation-duration: 2.5s;
         }
     }
 
@@ -32,4 +39,5 @@
 
 .mapa-local {
     width: 100%;
- }
+}
+

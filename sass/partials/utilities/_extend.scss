@@ -13,6 +13,6 @@
     color: white;
     font-family: $content-font;
     &:hover {
-        background-color:  rgb(149, 133, 124);
+        background-color:  map-get($color, hover-boton )
     }
  }
