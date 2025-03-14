@@ -2,12 +2,12 @@
 
 > DEPLOY: https://tam-s-c.github.io/Keane-Website/](https://luzponce02.github.io/Bibliografia-Abel-Pintos/)
 ### CODERHOUSE > Comisión: 69175
-- Profesor: Jesus Gabriel Jorge
-- Tutor Adjunto: Thiago Sosa
-- Alumna: Luz Ponce Arnouil
+- Teacher: Jesus Gabriel Jorge
+- Deputy Tutor: Thiago Sosa
+- Student: Luz Ponce Arnouil
 
-> Web realizada íntegramente con HTML y CSS.
-> 
+> Website made entirely with HTML and CSS.
+
 ### Technologies
 ![HTML](https://img.shields.io/badge/HTML5-blue)
 ![CSS3](https://img.shields.io/badge/CSS3-orange)
