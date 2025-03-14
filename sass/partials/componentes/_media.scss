@@ -41,6 +41,15 @@
         font-size: map-get($font-sizes , h4-mobile);
     }
 
+    .encabezado-tabla {
+        font-size: map-get($font-sizes, th-mobile);
+    }
+
+    .size-td {
+        font-size: map-get($font-sizes, td-mobile);
+    }
+
+
     /*media-card*/
     .tarjeta-group {
         display: flex;
@@ -132,6 +141,14 @@
 
     h4 {
         font-size: map-get($font-sizes, h4-tablet);
+    }
+
+    .encabezado-tabla {
+        font-size: map-get($font-sizes, th-tablet);
+    }
+
+    .size-td {
+        font-size: map-get($font-sizes, td-tablet);
     }
 
 
