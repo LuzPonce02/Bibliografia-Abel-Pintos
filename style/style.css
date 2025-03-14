@@ -98,7 +98,6 @@ footer .redes {
 /*tickets*/
 .main-tickets .titulo-tickets {
   margin-left: 2.5rem;
-  margin-bottom: 32px;
 }
 
 .lista-group {
@@ -376,6 +375,9 @@ a {
     margin-left: 0;
     margin-top: 10px;
   }
+  .main-tickets .titulo-tickets {
+    margin-left: 8px;
+  }
 }
 /*media tablet*/
 @media (min-width: 451px) and (max-width: 770px) {
@@ -455,6 +457,9 @@ a {
   .container-precios .img-ubicacion {
     margin-left: 0;
     margin-top: 10px;
+  }
+  .main-tickets .titulo-tickets {
+    margin-left: 8px;
   }
 }
 
