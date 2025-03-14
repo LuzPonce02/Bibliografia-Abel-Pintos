@@ -19,6 +19,10 @@ h1 {
   color: white;
   font-family: "Montserrat", serif;
 }
+.btn:hover, .tarjeta-group .tarjeta .tarjeta-body .boton-card:hover {
+  background-color: rgb(149, 133, 124);
+}
+
 /*nav*/
 .color-nav {
   background-color: rgb(185, 169, 159);
