@@ -1,2 +1,4 @@
 WIREFRAME - LUZ PONCE ARNOUIL
-[PRE ENTREGA PONCE ARNOUIL.pdf](https://github.com/user-attachments/files/19247548/PRE.ENTREGA.PONCE.ARNOUIL.pdf)
+
+![PRE ENTREGA PONCE ARNOUIL](https://github.com/user-attachments/assets/3d4eddc0-0c95-4ec6-aefd-75bad1bf2123)
+
