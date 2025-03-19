@@ -115,8 +115,12 @@ footer .redes {
   font-family: "Montserrat", serif;
   border: none;
 }
+.lista-group .lista-group-item .direccion {
+  color: #0069c2;
+  text-decoration: underline;
+}
 .lista-group .lista-group-item .direccion:hover {
-  color: rgb(102, 83, 58);
+  text-decoration: none;
 }
 .lista-group .lista-boton:hover {
   animation: headShake;

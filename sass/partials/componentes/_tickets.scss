@@ -17,8 +17,10 @@
         border: none;
 
         .direccion {
+            color: #0069c2;
+            text-decoration: underline;
             &:hover {
-                color: rgb(102, 83, 58);
+                text-decoration: none;
             }
         }
     }
