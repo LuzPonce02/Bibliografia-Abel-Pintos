@@ -41,7 +41,7 @@ h1 {
   margin-left: 10px;
 }
 .color-nav .navbar-collapse .navbar-nav .nav-item .nav-link {
-  color: white;
+  color: #ffffff;
 }
 .color-nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: rgb(240, 219, 219);
@@ -61,7 +61,7 @@ footer {
 }
 footer .copy {
   font-size: 15px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 footer .redes {
   width: 24px;
