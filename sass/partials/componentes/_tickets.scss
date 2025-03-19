@@ -12,6 +12,14 @@
     margin-bottom: 15px;
     list-style: none;
 
+    .link-img{
+        &:hover{
+            transform: scale(1.1);
+            transition: ease-in 0.4s;
+
+        }
+    }
+
     .lista-group-item {
         font-family: $content-font;
         border: none;

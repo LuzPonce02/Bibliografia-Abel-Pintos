@@ -111,6 +111,10 @@ footer .redes {
   margin-bottom: 15px;
   list-style: none;
 }
+.lista-group .link-img:hover {
+  transform: scale(1.1);
+  transition: ease-in 0.4s;
+}
 .lista-group .lista-group-item {
   font-family: "Montserrat", serif;
   border: none;
