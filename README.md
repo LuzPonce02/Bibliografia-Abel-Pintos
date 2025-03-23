@@ -37,8 +37,8 @@
 ![SHOWROOM 2](https://github.com/user-attachments/assets/1c9ee47a-10b7-470b-ac7f-469db0021d85)
 
 ### TICKETS
-![TICKETS 0](https://github.com/user-attachments/assets/c8619cbc-b27f-4e61-86f7-f83cdbd8ee14)
-![TICKETS 1](https://github.com/user-attachments/assets/cf71a025-0d86-462d-a06e-39e02d3f096f)
+![TICKETS 01](https://github.com/user-attachments/assets/7e74ab54-11b0-4cbe-b8aa-614c710324f2)
+![TICKETS 1](https://github.com/user-attachments/assets/0f7b0ff5-533b-4f95-a043-503811f7f1e8)
 
 ### CONTACT
 ![CONTACTO 0](https://github.com/user-attachments/assets/6c9c25f3-766a-4f98-9e10-32d0ea6cb3e3)
