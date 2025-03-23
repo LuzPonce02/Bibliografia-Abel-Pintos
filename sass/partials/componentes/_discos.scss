@@ -1,16 +1,34 @@
 /*discos*/
-
-.titulo-musica {
-    margin-top: 15px;
-    text-align: center;
+.container-discos {
+    padding-top: 48px;
+    margin-top: 48px;
+    .titulo-musica {
+        margin-top: 15px;
+        text-align: center;
+    }
+    .container-musica {
+        text-align: center;
+        .parrafo-musica {
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    }
 }
 
-
-.container-musica {
-text-align: center;
-
-.parrafo-musica {
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
+.container-discos {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 0px;
+    width: 100%;
+    .container-spotify {
+        width: 100%;
+        .container-iframe-discos {
+            padding-right: 16px;
+            padding-right: 16px;
+            text-align: center;
+            .iframe-spotify {
+                @include medidas (300px, 380px);
+            }
+        }
+    }
 }
