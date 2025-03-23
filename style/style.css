@@ -125,6 +125,14 @@ footer .div-container-footer .rrss .redes {
   margin-left: 2.5rem;
 }
 
+/*fondo-tickets*/
+.section-tickets {
+  background-image: url(/assets/img/fondo-tickets.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 .lista-group {
   display: flex;
   flex-direction: row;
@@ -239,14 +247,6 @@ footer .div-container-footer .rrss .redes {
 /*showroom*/
 .borde {
   border-radius: 3%;
-}
-
-/*fondo-tickets*/
-.section-tickets {
-  background-image: url(/assets/img/fondo-tickets.png);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 /*contenido*/
