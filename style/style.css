@@ -61,6 +61,8 @@ footer {
 }
 footer .div-container-footer {
   margin-top: 50px;
+  padding-top: 50px;
+  padding-bottom: 25px;
 }
 footer .div-container-footer .div-col {
   text-align: left;
