@@ -376,7 +376,37 @@ textarea {
 }
 
 /*acordion preguntas*/
-.acordion-header .acordion-button {
+.div-contacto {
+  padding-top: 16px;
+  margin-bottom: 48px;
+}
+.div-contacto .container-row {
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+.div-contacto .container-row .div-content {
+  text-align: left;
+  margin-bottom: 16px;
+}
+.div-contacto .container-row .div-content .titulo-contacto {
+  text-align: left;
+  margin-top: 48px;
+}
+.div-contacto .container-row .div-formulario {
+  margin-bottom: 48px;
+  padding-top: 16px;
+}
+.div-contacto .container-row .div-formulario .form-group {
+  margin-top: 24px;
+}
+.div-contacto .container-row .div-formulario .btn-margin {
+  margin-top: 8px;
+}
+
+.acordion-preguntas {
+  padding-bottom: 48px;
+}
+.acordion-preguntas .acordion-header .acordion-button {
   width: 100%;
   height: 100px;
   border: none;
@@ -385,8 +415,7 @@ textarea {
   color: white;
   text-align: left;
 }
-
-.acordion-body {
+.acordion-preguntas .acordion-body {
   padding: 15px;
   font-family: "Montserrat", serif;
   font-size: 1.25rem;
