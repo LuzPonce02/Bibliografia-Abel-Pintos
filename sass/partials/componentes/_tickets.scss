@@ -1,12 +1,22 @@
 /*tickets*/
 .main-tickets {
+    margin-top: 30px;
+    padding-top: 50px;
     .titulo-tickets {
         margin-left: 2.5rem;
+    }
+    .imagen-es-ahora-tickets {
+        width: 100%;
+        max-width: 100%;
+        max-height: 100%;
+        line-height: 0px;
     }
 }
 
 /*fondo-tickets*/
 .section-tickets {
+    text-align: center;
+    margin-top: 40px;
     background-image: url(/assets/img/fondo-tickets.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -15,6 +25,7 @@
 }
 
 .lista-group {
+    padding-right: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,16 +33,25 @@
     list-style: none;
 
     .link-img{
+        width: 40%;
         &:hover{
             transform: scale(1.1);
             transition: ease-in 0.4s;
 
+        }
+        .img-luciano-abel {
+            width: 70%;
+            max-width: 70%;
+            max-height: 10%;
+            line-height: 0px;
+            border-radius: 8px;
         }
     }
 
     .lista-group-item {
         font-family: $content-font;
         border: none;
+        text-align: center;
 
         .direccion {
             color: #0069c2;
@@ -43,6 +63,7 @@
     }
 
     .lista-boton {
+        text-align: center;
         &:hover {
             animation: headShake;
             animation-duration: 2.5s;
@@ -54,7 +75,16 @@
     }
 }
 
-.mapa-local {
-    width: 100%;
+.subtitulo-precios {
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
+
+.subtitulo-mapa {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+}
+
+
 
