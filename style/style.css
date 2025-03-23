@@ -107,18 +107,18 @@ footer .div-container-footer .rrss .redes {
 }
 
 /*discos*/
-.container-discos {
+.main-discos {
   padding-top: 48px;
   margin-top: 48px;
 }
-.container-discos .titulo-musica {
-  margin-top: 15px;
+.main-discos .titulo-musica {
+  margin-top: 20px;
   text-align: center;
 }
-.container-discos .container-musica {
+.main-discos .container-musica {
   text-align: center;
 }
-.container-discos .container-musica .parrafo-musica {
+.main-discos .container-musica .parrafo-musica {
   margin-top: 10px;
   margin-bottom: 30px;
 }
