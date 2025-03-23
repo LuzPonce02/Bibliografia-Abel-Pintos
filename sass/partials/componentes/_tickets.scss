@@ -86,5 +86,40 @@
 
 }
 
+.container-precios {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    .img-ubicacion {
+        max-width: 100%;
+        height: auto;
+        margin-left: 20px;
+        
+     }
+}
 
+.tabla {
+    th {
+        padding: 10px 30px;
+        font-family: $content-font;
+        background-color: map-get($color, nav-footer-boton );
+        text-align: center;
+    }
+    tbody {
+        tr {
+            border: 1px solid map-get($color, border );
+            td {
+                font-family: $content-font;
+                text-align: center;
+                padding: 5px 10px;
+                border: 1px solid rgb(185, 169, 159),;
+            }
+            .color-td {
+                background-color: map-get($color,fondos);
+
+            }
+        }
+    }
+}
 
