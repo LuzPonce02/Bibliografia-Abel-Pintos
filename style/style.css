@@ -300,8 +300,22 @@ footer .div-container-footer .rrss .redes {
 }
 
 /*showroom*/
-.borde {
+.main-local {
+  padding-top: 48px;
+  margin-top: 24px;
+}
+.main-local .borde {
   border-radius: 3%;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  width: 100%;
+}
+.main-local .sub-mapa {
+  margin-top: 48px;
+}
+.main-local .sub-showroom {
+  margin-top: 48px;
 }
 
 /*contenido*/

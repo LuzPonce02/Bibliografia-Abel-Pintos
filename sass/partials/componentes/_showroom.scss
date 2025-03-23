@@ -1,4 +1,21 @@
 /*showroom*/
-.borde {
-    border-radius: 3%;
+.main-local {
+    padding-top: 48px;
+    margin-top: 24px;
+    .borde {
+        border-radius: 3%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        width: 100%;
+    }
+    .sub-mapa {
+        margin-top: 48px;
+    
+    }
+    .sub-showroom {
+        margin-top: 48px
+    }
 }
+
+
