@@ -1,14 +1,27 @@
 /*footer*/
 footer {
-    background-color: map-get($color ,nav-footer-boton);
+    background-color: map-get($color , nav-footer-boton);
 
-    .copy {
-        font-size: map-get($font-sizes, foot);
-        color: $letra;
-    }
+    .div-container-footer {
+        margin-top: 50px;
 
-    .redes {
-        @include medidas (24px, 24px);
-        margin: 10px;
+        .div-col {
+            text-align: left;
+
+            .copy {
+                font-size: map-get($font-sizes, foot);
+                color: $letra;
+            }
+        }
+
+        .rrss {
+            text-align: center;
+
+            .redes {
+                @include medidas (24px, 24px);
+                margin: 10px;
+            }
+
+        }
     }
 }

@@ -59,11 +59,20 @@ h1 {
 footer {
   background-color: rgb(185, 169, 159);
 }
-footer .copy {
+footer .div-container-footer {
+  margin-top: 50px;
+}
+footer .div-container-footer .div-col {
+  text-align: left;
+}
+footer .div-container-footer .div-col .copy {
   font-size: 15px;
   color: #ffffff;
 }
-footer .redes {
+footer .div-container-footer .rrss {
+  text-align: center;
+}
+footer .div-container-footer .rrss .redes {
   width: 24px;
   height: 24px;
   margin: 10px;
@@ -73,16 +82,26 @@ footer .redes {
 .main-home {
   padding-top: 5.625rem;
 }
-.main-home .animate__animated.animate__rubberBand {
+.main-home .main-content .div-container-home {
+  margin-top: 50px;
+}
+.main-home .main-content .div-container-home .animate__animated.animate__rubberBand {
   --animate-duration: 1.5s;
 }
-.main-home .parrafo-inicio {
-  text-align: justify;
+.main-home .main-content .div-container-home .nombre-abel {
+  margin-top: 25px;
+  padding-top: 25px;
+  width: 100%;
 }
-.main-home .imagen-home {
+.main-home .main-content .div-container-home .parrafo-inicio {
+  text-align: justify;
+  margin-top: 25px;
+}
+.main-home .main-content .div-container-home .imagen-home {
   width: 100%;
   height: auto;
   border-radius: 30px;
+  margin-top: 50px;
 }
 
 /*discos*/
