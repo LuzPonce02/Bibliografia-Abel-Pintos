@@ -159,13 +159,10 @@ footer .div-container-footer .rrss .redes:hover {
   padding-right: 16px;
   text-align: center;
 }
-.container-discos .container-spotify .container-iframe-discos .iframe-spotify {
-  width: 300px;
-  height: 380px;
-}
 
-.animate__animated.animate__backInUp {
-  --animate-duration: 2s;
+.iframe-spotify {
+  width: 310px;
+  height: 40vh;
 }
 
 /*tickets*/
@@ -541,6 +538,11 @@ a {
   .main-home {
     padding-top: 10px;
   }
+  /*media iframe*/
+  .iframe-spotify {
+    width: 300px;
+    height: 45vh;
+  }
 }
 /*media tablet*/
 @media (min-width: 451px) and (max-width: 770px) {
@@ -623,6 +625,11 @@ a {
   }
   .main-tickets .titulo-tickets {
     margin-left: 8px;
+  }
+  /*media iframe*/
+  .iframe-spotify {
+    width: 300px;
+    height: 50vh;
   }
 }
 

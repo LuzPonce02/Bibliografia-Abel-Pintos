@@ -113,6 +113,11 @@
     .main-home {
         padding-top: 10px;
     }
+
+    /*media iframe*/
+    .iframe-spotify {
+        @include medidas (300px, 45vh)
+    }
 }
 
 
@@ -225,6 +230,11 @@
         .titulo-tickets {
             margin-left: 8px;
         }
+    }
+
+    /*media iframe*/
+    .iframe-spotify {
+        @include medidas (300px, 50vh)
     }
 
 }

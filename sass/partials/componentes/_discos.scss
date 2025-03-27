@@ -26,13 +26,10 @@
             padding-right: 16px;
             padding-right: 16px;
             text-align: center;
-            .iframe-spotify {
-                @include medidas (300px, 380px);
-            }
         }
     }
 }
 
-.animate__animated.animate__backInUp {
-    --animate-duration: 2s;
+.iframe-spotify {
+    @include medidas (310px, 40vh);
 }
