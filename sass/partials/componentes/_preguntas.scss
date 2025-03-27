@@ -41,6 +41,9 @@
             background-image: linear-gradient(to bottom, rgb(196, 177, 166), rgb(158, 145, 136));
             color: white;
             text-align: left;
+            &:hover {
+                background-image: linear-gradient(to bottom, rgb(141, 129, 121), rgb(158, 145, 136));
+            }
         }
     }
     .acordion-body {

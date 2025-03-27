@@ -424,6 +424,9 @@ textarea {
   color: white;
   text-align: left;
 }
+.acordion-preguntas .acordion-header .acordion-button:hover {
+  background-image: linear-gradient(to bottom, rgb(141, 129, 121), rgb(158, 145, 136));
+}
 .acordion-preguntas .acordion-body {
   padding: 15px;
   font-family: "Montserrat", serif;
