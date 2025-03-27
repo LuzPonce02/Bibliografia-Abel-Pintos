@@ -45,7 +45,9 @@ h1 {
 }
 .color-nav .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
   color: rgb(240, 219, 219);
-  font-size: 21px;
+  font-size: 22px;
+  animation: swing;
+  animation-duration: 1.5s;
 }
 
 .logo-abel {
