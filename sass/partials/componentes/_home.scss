@@ -12,7 +12,7 @@
             }
 
             .nombre-abel {
-                margin-top: 25px;
+                margin-top: 15px;
                 padding-top: 25px;
                 width: 100%;
             }
@@ -26,7 +26,7 @@
             .imagen-home {
                 @include medidas (100%, auto);
                 border-radius: 30px;
-                margin-top: 50px;
+                margin-top: 45px;
                 animation: movimiento 3s linear infinite;
             }
             @keyframes movimiento{

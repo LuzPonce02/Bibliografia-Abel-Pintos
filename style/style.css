@@ -101,7 +101,7 @@ footer .div-container-footer .rrss .redes:hover {
   --animate-duration: 1.5s;
 }
 .main-home .main-content .div-container-home .nombre-abel {
-  margin-top: 25px;
+  margin-top: 15px;
   padding-top: 25px;
   width: 100%;
 }
@@ -113,7 +113,7 @@ footer .div-container-footer .rrss .redes:hover {
   width: 100%;
   height: auto;
   border-radius: 30px;
-  margin-top: 50px;
+  margin-top: 45px;
   animation: movimiento 3s linear infinite;
 }
 @keyframes movimiento {
@@ -287,8 +287,9 @@ footer .div-container-footer .rrss .redes:hover {
   margin: 0;
 }
 .tarjeta-group .tarjeta {
-  background-color: #fffaf2;
+  background-color: #fff8ec;
   margin-bottom: 10px;
+  border: 1px solid rgb(219, 203, 197);
   border-radius: 8px;
   margin: 0;
   display: flex;
