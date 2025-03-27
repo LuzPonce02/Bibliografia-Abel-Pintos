@@ -142,6 +142,10 @@ footer .div-container-footer .rrss .redes {
   height: 380px;
 }
 
+.animate__animated.animate__backInUp {
+  --animate-duration: 2s;
+}
+
 /*tickets*/
 .main-tickets {
   margin-top: 30px;
