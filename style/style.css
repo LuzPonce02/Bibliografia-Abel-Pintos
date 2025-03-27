@@ -110,6 +110,18 @@ footer .div-container-footer .rrss .redes:hover {
   height: auto;
   border-radius: 30px;
   margin-top: 50px;
+  animation: movimiento 3s linear infinite;
+}
+@keyframes movimiento {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
 
 /*discos*/
