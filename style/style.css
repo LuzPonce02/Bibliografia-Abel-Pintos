@@ -79,6 +79,10 @@ footer .div-container-footer .rrss .redes {
   height: 24px;
   margin: 10px;
 }
+footer .div-container-footer .rrss .redes:hover {
+  width: 30px;
+  height: 30px;
+}
 
 /*home*/
 .main-home {

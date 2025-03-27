@@ -22,6 +22,9 @@ footer {
             .redes {
                 @include medidas (24px, 24px);
                 margin: 10px;
+                &:hover {
+                    @include medidas (30px, 30px)
+                }
             }
 
         }
