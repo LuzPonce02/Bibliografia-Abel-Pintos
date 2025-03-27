@@ -32,7 +32,7 @@
 
 ### SHOWROOM
 ![SHOWROOM 0](https://github.com/user-attachments/assets/c64e60c1-0abf-4dce-836b-f13ea3453b76)
-![SHOWROOM 01](https://github.com/user-attachments/assets/c0e61939-d63a-4940-b8ca-a97c124d26c2)
+![SHOWROOM 01](https://github.com/user-attachments/assets/4b9b1520-4668-4fe6-b891-3e6ac45b29b6)
 ![SHOWROOM 1](https://github.com/user-attachments/assets/a6dd9802-ce69-4d2c-a61d-8b26dd0eebc6)
 ![SHOWROOM 2](https://github.com/user-attachments/assets/1c9ee47a-10b7-470b-ac7f-469db0021d85)
 
@@ -41,7 +41,7 @@
 ![TICKETS 1](https://github.com/user-attachments/assets/0f7b0ff5-533b-4f95-a043-503811f7f1e8)
 
 ### CONTACT
-![CONTACTO 0](https://github.com/user-attachments/assets/6c9c25f3-766a-4f98-9e10-32d0ea6cb3e3)
+![CONTACTO 0](https://github.com/user-attachments/assets/f571ef19-3b3a-4f2f-b263-13efbee3fe29)
 ![CONTACTO 1](https://github.com/user-attachments/assets/0679da88-c8f2-4a4f-b3b8-8b6102ff3c42)
 
 
