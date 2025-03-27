@@ -1,29 +1,33 @@
 /*home*/
 .main-home {
     padding-top: 5.625rem;
+
     .main-content {
         .div-container-home {
             margin-top: 50px;
+
             .animate__animated.animate__rubberBand {
                 --animate-duration: 1.5s;
-        
+
             }
+
             .nombre-abel {
                 margin-top: 25px;
                 padding-top: 25px;
                 width: 100%;
             }
+
             .parrafo-inicio {
                 text-align: justify;
                 margin-top: 25px;
             }
+
             .imagen-home {
-                @include medidas (100% , auto);
+                @include medidas (100%, auto);
                 border-radius: 30px;
                 margin-top: 50px;
             }
         }
     }
-    
 
 }
