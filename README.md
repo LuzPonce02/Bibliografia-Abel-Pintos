@@ -42,7 +42,7 @@
 
 ### CONTACT
 ![CONTACTO 0](https://github.com/user-attachments/assets/f571ef19-3b3a-4f2f-b263-13efbee3fe29)
-![CONTACTO 1](https://github.com/user-attachments/assets/0679da88-c8f2-4a4f-b3b8-8b6102ff3c42)
+![CONTACTO 1](https://github.com/user-attachments/assets/f02df854-5d65-4270-9bf5-20acddb5902d)
 
 
 
